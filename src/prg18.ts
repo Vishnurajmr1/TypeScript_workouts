@@ -10,3 +10,14 @@ Arun’s overall grade = (81x70)/100 + (68x20)/100 + (92x10)/100 = 79.5
 Program should accept the scores for written test, lab exams and assignments
 Output the grade of a student (using weighted average)
 */
+export{};
+const promptInput=require('prompt-sync')();
+
+console.log('Enter the marks scored by the student');
+let wrt_tst:number=parseFloat(promptInput('Written test = '));
+let lab_tst:number=parseFloat(promptInput('lab test = '));
+let assignment:number=parseFloat(promptInput('Assignments = '));
+
+let avg:number=(wrt_tst*70+lab_tst*20+assignment*10)/100;
+
+console.log('Grade of the student is: ',avg);

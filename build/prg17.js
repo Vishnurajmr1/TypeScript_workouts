@@ -1,9 +1,10 @@
 "use strict";
 /*Write a menu driven program to do the basic mathematical operations
 such as addition, subtraction, multiplication and division
-
-Program should have 4 functions named addition(), subtraction(), multiplication() and division()
-Should create a class object and call the appropriate function as user prefers in the main function
+Program should have 4 functions named
+addition(), subtraction(),multiplication() and division()
+Should create a class object and call the appropriate function as
+user prefers in the main function
 */
 Object.defineProperty(exports, "__esModule", { value: true });
 const promptInput = require("prompt-sync")();
